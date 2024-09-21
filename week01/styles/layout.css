@@ -28,27 +28,25 @@ header {
 .navigation {
     list-style: none;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    align-items: center;
+    flex-grow: 1;
     background-color: #A1887F;
 }
 
-.navigation li {
-    flex: 1;
-}
 
 .navigation a {
-    display: block;
+
     font-size: 1.3rem;
     color: white;
     padding: 1rem;
+    flex-grow: 1;
     text-decoration: none;
     text-align: center;
     background-color: #8D6E63;
 }
 
 .navigation a:hover {
-    background-color: #D7CCC8;
+    background-color: #b47c68;
 }
 
 main {
@@ -74,7 +72,7 @@ footer {
     background-color: #3E2723;
     color: white;
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
     padding-top: 2rem;
 }
 

@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Dallin Hale</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dallin Hale. This is where I will place my finished work!">
+    <meta name="author" content="Dallin Hale">
+    <link rel="stylesheet" href="styles/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="scripts/getdates.js"></script>
 </head>
 <body>
-    <h1> Hello World</h1>
+    <header class="header">
+        <h1 class="title">WDD 131: Web Dynamic Fundamentals - <span>Dallin Hale</span></h1>
+        <nav class="nav">
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng" target="_blank">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+          <h2 class="card-title">About Me</h2>
+          <div class="card-body">
+            <p>Hello! I am <span class="name">Dallin Hale</span>, I currently work full time as a QA engineer for a tech startup. I enjoy learning new technologies and expanding my coding skills 
+                through projects and experimentation. I am very new to front-end webdev and I have a lot to learn. I enjoy running, weightlifitng, reading, and learing to code new things!
+            </p>
+            <img src="images/Dallin.jpg" alt="Picture of Dallin Hale" class="profile-pic" loading ="lazy">
+          </div>
+          <div class="centered-text">
+            <h2 class="line-text">Idaho, United States</h2>
+          </div>
+          <div class="card-body">
+            <img src="images/Flag.png" alt="US Flag" class="flag-img">
+            <p>
+                Located in North America, the United States is a vast country known 
+                for its diverse landscapes, cultural richness, and technological innovation. Idaho, one of the western states, is famous for its outdoor activities.
+            </p>
+          </div>
+        </section>
+        <section class="card">
+          <h1 class="card-title">Web Dev Resources</h1>
+          <div class="card-body">
+            <ul class="card-list">
+              <li>
+                <a href="https://codepen.io/">Codepen</a>
+              </li>
+              <li>
+                <a href="https://www.coursera.org/">Coursera</a></li>
+              <li>
+                <a href="https://www.udemy.com/">Udemy</a>
+              </li>
+              <li>
+                <a href="https://css-tricks.com/">CSS Tricks</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>© <span id="currentyear"><span>2024</span></span> Dallin Hale - United States, Idaho</p>
+        <p class ="last-modification">Last Modification: <span id="lastModified"><span><span></span></span></span></p>
+      </footer>
 </body>
 </html>

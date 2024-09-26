@@ -103,33 +103,26 @@ nav ul li a:hover {
 }
 
 
-
-
 .centered-text {
     display: flex;
     justify-content: center;
     text-decoration: underline;
 }
 
-.temple-flex {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-bottom: 5%;
+.temples-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+
 }
 
 figure {
-    flex: 1 1 calc(33% - 1rem); 
-    margin: 0;
     text-align: center;
 }
 
 img {
     width: 100%;
     height: auto;
-    max-width: 100%;
 }
 
 figcaption {
@@ -146,8 +139,8 @@ footer {
 
 
 @media (max-width: 900px) {
-    figure {
-        flex: 1 1 calc(50% - 1rem);
+    .temples-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #hamburger {
@@ -174,8 +167,9 @@ footer {
 }
 
 @media (max-width: 600px) {
-    figure {
-        flex: 1 1 100%;
+
+    .temples-grid {
+        grid-template-columns: 1fr; 
     }
 
     #hamburger {

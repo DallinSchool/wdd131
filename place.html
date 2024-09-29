@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information and weather about my home of Rexburg, Idaho!">
+    <title>Rexburg, Idaho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Rexburg, Idaho</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/idaho1-large.webp" media="(min-width: 1200px)">
+                <source srcset="images\idaho1_med2.webp" media="(min-width: 800px)">
+                <img src="images/idaho1-small.webp" alt="Picture of a farmers field" width="1160" height="580">
+            </picture>
+
+            <section class="data">
+                <h2>Data <span class="data-icon">
+                    <img src="images/Data_SVG.svg" alt="Data Icon" />
+                </span></h2>
+                <ul>
+                    <li><strong>Area:</strong> <span id="area"></span></li>
+                    <li><strong>Population:</strong> <span id="population"></span></li>
+                    <li><strong>State:</strong> <span id="state"></span></li>
+                    <li><strong>Languages:</strong> <span id="languages"></span></li>
+                    <li><strong>Currency:</strong> <span id="currency"></span></li>
+                    <li><strong>Time Zone:</strong> <span id="timezone"></span></li>
+                    <li><strong>Calling Code:</strong> <span id="callingCode"></span></li>
+                    <li><strong>Internet TLD:</strong> <span id="internetTLD"></span></li>
+                </ul>
+            </section>
+
+            <section class="weather">
+                <h2>Weather <span class="weather-icon"></span>
+                            <span class="text-icon">⛅</span>
+                </h2>
+                
+                <ul>
+                    <li><strong>Temperature:</strong> <span id="temperature"></span></li>
+                    <li><strong>Conditions:</strong> <span id="conditions"></span></li>
+                    <li><strong>Wind:</strong> <span id="wind"></span></li>
+                    <li><strong>Wind Chill:</strong> <span id="windChill"></span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>©2024 Dallin Hale - Rexburg, Idaho</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

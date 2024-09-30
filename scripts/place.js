@@ -50,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // -------- This is for the mobile weather icon selector
     const weatherIcons = {
         "Sunny": "day.svg",
-        "Partly Cloudy": "cloudy-day-1.svg",
         "Cloudy": "cloudy-day-1.svg",
         "Rainy": "rainy-1.svg",
         "Snowy": "snowy-1.svg",

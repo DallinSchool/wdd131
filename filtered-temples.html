@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album - Filtered</title>
+    <meta name="description" content="WDD 131 - Filtered Temple Album Project: This project is to help me work on responsive design and JavaScript. I will be showing filtered views of beautiful temples!">
+    <meta name="author" content="Dallin Hale">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <script defer src="scripts/filtered-temples.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="hamburger" aria-label="menu">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#" data-filter="all">Home</a></li>
+                <li><a href="#" data-filter="old">Old</a></li>
+                <li><a href="#" data-filter="new">New</a></li>
+                <li><a href="#" data-filter="large">Large</a></li>
+                <li><a href="#" data-filter="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="centered-text">
+            <h2>Temple Album</h2>
+        </div>
+        <section class="temples-grid" id="temples-grid">
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear">2024</span> Dallin Hale - United States, Idaho</p>
+        <p class="last-modification">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

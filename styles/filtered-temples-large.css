@@ -1,0 +1,17 @@
+
+@media (min-width: 1500px) {
+    .temples-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    #hamburger {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}

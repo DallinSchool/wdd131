@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Aba, Nigeria",
         dedicated: "2005, August, 7",
         area: 11500,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg",
+        imageUrl: "./images/temples/aba-nigeria-temple.jpg",
         alt: "Aba Nigeria Temple"
       },
       {
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Manti, Utah, United States",
         dedicated: "1888, May, 21",
         area: 74792,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg",
+        imageUrl: "./images/temples/manti-temple.jpg",
         alt: "Manti Utah Temple"
       },
       {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Payson, Utah, United States",
         dedicated: "2015, June, 7",
         area: 96630,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg",
+        imageUrl: "./images/temples/payson-utah-temple.jpg",
         alt: "Payson Utah Temple"
       },
       {
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Yigo, Guam",
         dedicated: "2020, May, 2",
         area: 6861,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg",
+        imageUrl: "./images/temples/yigo_guam_temple.jpg",
         alt: "Yigo Guam Temple"
       },
       {
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Kensington, Maryland, United States",
         dedicated: "1974, November, 19",
         area: 156558,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg",
+        imageUrl: "./images/temples/washington_dc_temple.jpg",
         alt: "Washington D.C. Temple"
       },
       {
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Lima, Perú",
         dedicated: "1986, January, 10",
         area: 9600,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg",
+        imageUrl: "./images/temples/lima-peru-temple.jpg",
         alt: "Lima Perú Temple"
       },
       {
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Mexico City, Mexico",
         dedicated: "1983, December, 2",
         area: 116642,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg",
+        imageUrl: "./images/temples/mexico-city-temple.jpg",
         alt: "Mexico City Mexico Temple"
       },
       {
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "St. George, Utah",
         dedicated: "1877, April, 6",
         area: 143969,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/st-george-utah/400x250/st-george-temple-lds-894724-wallpaper.jpg",
+        imageUrl: "./images/temples/st-george-temple.jpg", 
         alt: "St. George Utah Temple"
       },
       {
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Bountiful, Utah",
         dedicated: "1995, January, 8",
         area: 104000,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bountiful-utah/400x250/bountiful-temple-766347-wallpaper.jpg",
+        imageUrl: "./images/temples/bountiful-temple.jpg",
         alt: "Bountiful Utah Temple"
       },
       {
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Taipei, Taiwan",
         dedicated: "1984, November, 17",
         area: 9945,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/taipei-taiwan/400x250/taipei-taiwan-temple-lds-459051-wallpaper.jpg",
+        imageUrl: "./images/temples/taipei-taiwan-temple.jpg",
         alt: "Taipei Taiwan Temple"
       },
       {
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Frankfurt, Germany",
         dedicated: "1987, August, 28",
         area: 32895,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/frankfurt-germany/400x250/frankfurt-temple-3-2278181.jpg",
+        imageUrl: "./images/temples/frankfurt-temple.jpg",
         alt: "Frankfurt Germany Temple"
       },
       {
@@ -122,10 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
         location: "Fukuoka, Japan",
         dedicated: "2000, June, 11",
         area: 10700,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fukuoka-japan/400x250/fukuoka-japan-temple-lds-306863-wallpaper.jpg",
+        imageUrl: "./images/temples/fukuoka-japan-temple.jpg",
         alt: "Fukuoka Japan Temple"
       }
     ];
+    
   
     function renderTemples(filteredTemples) {
         const templeGrid = document.getElementById('temples-grid');

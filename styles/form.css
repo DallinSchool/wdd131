@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f5f7fa;
     color: #333;
     display: flex;
@@ -7,6 +7,13 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 1.8em;
+    color: #2F5233;
+    margin-bottom: 15px;
 }
 
 .container, .confirmation-container {
@@ -22,12 +29,6 @@ body {
     flex: 1;
 }
 
-h1 {
-    font-size: 1.8em;
-    color: #2F5233;
-    margin-bottom: 15px;
-}
-
 p {
     font-size: 1em;
     color: #333;
@@ -36,6 +37,9 @@ p {
 
 .required {
     font-size: 1.2rem;
+    color: #d9534f; 
+    font-weight: bold;
+    margin-left: 3px;
 }
 
 form {
@@ -49,12 +53,6 @@ label {
     color: #2F5233;
 }
 
-.required {
-    color: #d9534f; 
-    font-weight: bold;
-    margin-left: 3px;
-}
-
 select, input[type="date"], input[type="text"], textarea, input[type="submit"] {
     padding: 10px;
     border: 1px solid #4A6A4B;
@@ -63,6 +61,7 @@ select, input[type="date"], input[type="text"], textarea, input[type="submit"] {
     font-size: 1em;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
 }
 
 fieldset {
@@ -76,12 +75,7 @@ legend {
     padding: 0 5px;
     font-weight: bold;
     color: #2F5233;
-}
-
-legend .required {
-    color: #d9534f;
-    font-weight: bold;
-    margin-left: 3px;
+    font-family: 'Lora', serif;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -98,6 +92,7 @@ input[type="submit"], .submit-another {
     padding: 10px;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
 }
 
 input[type="submit"]:hover, .submit-another:hover {
@@ -115,13 +110,13 @@ footer {
     text-align: center;
     width: 100%;
     margin-top: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer p {
     color: white;
     margin: 5px 0;
 }
-
 
 @media (min-width: 768px) {
     .container, .confirmation-container {

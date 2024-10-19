@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container, .confirmation-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #2F5233;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.required {
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #2F5233;
+}
+
+.required {
+    color: #d9534f; 
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+select, input[type="date"], input[type="text"], textarea, input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #4A6A4B;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 1px solid #4A6A4B;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+    padding: 0 5px;
+    font-weight: bold;
+    color: #2F5233;
+}
+
+legend .required {
+    color: #d9534f;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"], .submit-another {
+    background-color: #2F5233;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input[type="submit"]:hover, .submit-another:hover {
+    background-color: #1E3B22;
+}
+
+textarea {
+    resize: vertical;
+}
+
+footer {
+    background-color: #2F5233; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    color: white;
+    margin: 5px 0;
+}
+
+
+@media (min-width: 768px) {
+    .container, .confirmation-container {
+        max-width: 800px;
+    }
+}

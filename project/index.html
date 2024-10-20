@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glorf's Grub Grimoire - Fantasy Recipe Book - This page introduces this magical book and allows visitors to learn a bit more about it and Goblins.">
+    <title>Glorf's Grub Grimoire</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/webp" href="images/grimoire.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=MedievalSharp&display=swap" rel="stylesheet">
+    <script src="scripts/goblinWords.js"></script>
+    <script src="scripts/recipes.js"></script>
+    <script src="scripts/mealOfTheMonth.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo-header">
+            <img src="images/grimoire.webp" alt="Glorf's Grimoire Logo" class="logo" loading="lazy">
+            <h1>Glorf's Grub Grimoire</h1>
+        </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="about.html">About the Chef</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <h1 class ='page-head'>Welcome to the Grimoire!</h1>
+        <section class="intro centered-text">
+            <h2>Glorf's Mission</h2>
+            <p class="mission-statement">“I'm Glorf, and my mission is to use the power of food to bring the different races together. Goblins have always been seen as aggressive and destructive, but I’m here to change that perception one meal at a time. From human pastries to elven delicacies and hearty dwarven feasts, I’ll show that goblins can be a force of unity and friendship.”</p>
+            <a href="about.html" class="button">Read Full Story</a>
+        </section>
+
+        <section class="goblin-word centered-text">
+            <h2>Goblin Word of the Month</h2>
+            <div id="goblin-word-container">
+            </div>
+        </section>
+
+        <section class="meal-of-the-month centered-text">
+            <div class="meal-card">
+                <h2 id="meal-month-title">Meal of the Month</h2>
+                <img src="" alt="Meal of the Month" id="meal-image">
+                <h3 id="meal-name"></h3>
+                <p id="meal-description"></p>
+            </div>
+            <a href="recipes.html" class="button">View More Recipes!</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Glorf's Gourmet Grub. All rights reserved.</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>

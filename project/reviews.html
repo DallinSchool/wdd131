@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glorf's Gourmet Grub - Reviews - This page holds all the reviews that people leave for the good food!">
+    <link rel="icon" type="image/webp" href="images/grimoire.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Glorf's Gourmet Grub - Reviews</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/reviews.js"></script>
+    <script src="scripts/recipes.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo-header">
+            <img src="images/grimoire.webp" alt="Glorf's Grimoire Logo" class="logo" loading="lazy">
+            <h1>Glorf's Grub Grimoire</h1>
+        </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="about.html">About the Chef</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <h1 class ='page-head'>Reviews</h1>
+        <section class="reviews">
+            <h2>What People Are Saying</h2>
+            <div id="review-list"></div>
+        </section>
+        <section class="submit-review">
+            <h2>Send a Review!</h2>
+            <p>Send a review in for any meals you were able to make! Please include which incredible dish you were able to create!</p>
+            <p id="call-out">All field are required to submit!</p>
+            <form class = review-form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="race">Your Race:</label>
+                <select id="race" name="race" required>
+                    <option value="human">Human</option>
+                    <option value="dwarf">Dwarf</option>
+                    <option value="goblin">Goblin</option>
+                    <option value="elf">Elf</option>
+                </select>
+
+                <label for="dish">Dish You Created:</label>
+                <select id="dish" name="dish" required></select>
+
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" rows="5" required></textarea>
+
+                <button type="submit" class="button">Submit Review</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Glorf's Gourmet Grub. All rights reserved.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

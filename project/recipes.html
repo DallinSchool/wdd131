@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glorf's Grub Grimoire - Recipe Page">
+    <title>Glorf's Grub Grimoire - Recipes</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/webp" href="images/grimoire.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=MedievalSharp&display=swap" rel="stylesheet">
+    <script src="scripts/goblinWords.js"></script>
+    <script src="scripts/recipes.js"></script>
+    <script src="scripts/mealOfTheMonth.js"></script>
+    <script src="scripts/recipeCardGeneration.js"></script>
+    <script src="scripts/reviews.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo-header">
+            <img src="images/grimoire.webp" alt="Glorf's Grimoire Logo" class="logo" loading="lazy">
+            <h1>Glorf's Grub Grimoire</h1>
+        </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="about.html">About the Chef</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <h1 class ='page-head'>Recipes</h1>
+        <div id="filter-box">
+            <section class="filters">
+                <h2>Find Your Recipe</h2>
+                <label for="meal-type">Meal Type:</label>
+                <select id="meal-type">
+                    <option value="all">All</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                    <option value="dessert">Dessert</option>
+                </select>
+                <label for="style">Style:</label>
+                <select id="style">
+                    <option value="all">All</option>
+                    <option value="goblin">Goblin</option>
+                    <option value="dwarven">Dwarven</option>
+                    <option value="elven">Elven</option>
+                    <option value="human">Human</option>
+                </select>
+            </section>
+        </div>
+        <section id="recipe-grid" class="recipe-grid">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Glorf's Gourmet Grub. All rights reserved.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
